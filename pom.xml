@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>www.hqyj.com</groupId>
+	<artifactId>MavenDemo1</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>MavenDemo1</name>
+	<build />
+	<dependencies>
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>3.4.6</version>
+		</dependency>
+		<dependency>
+   			 <groupId>cn.afterturn</groupId>
+   			 <artifactId>easypoi-spring-boot-starter</artifactId>
+   			 <version>4.0.0</version>
+   			 <type>pom</type>
+		</dependency>
+
+
+	</dependencies>
+</project>
